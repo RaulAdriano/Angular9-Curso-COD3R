@@ -1,8 +1,10 @@
+import { isError } from 'util';
 import { Product } from './product.model';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar'
 import { Observable } from 'rxjs';
+
 
 
 @Injectable({
@@ -18,7 +20,8 @@ export class ProductService {
     this.snackBar.open(msg,'X',{
       duration: 3000,
       horizontalPosition: "right",
-      verticalPosition: "top"
+      verticalPosition: "top",
+      panelClass: ['msg-success']
     })
   }
 
