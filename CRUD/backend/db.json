@@ -1,18 +1,24 @@
 {
-    "products": [{
-        "id": 1,
-        "name" : "Caneta bic",
-        "price" : 5.89
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta bic",
+      "price": 5.89
     },
     {
-        "id": 2,
-        "name" : "Notebook",
-        "price" : 6000
+      "id": 2,
+      "name": "Notebook",
+      "price": 6000
     },
     {
-        "id": 3,
-        "name" : "Xiaomi redmi note 15",
-        "price" : 3000
+      "id": 3,
+      "name": "Xiaomi redmi note 15",
+      "price": 3000
+    },
+    {
+      "name": "Veio do formulario",
+      "price": "9.99",
+      "id": 4
     }
-    ]
+  ]
 }
