@@ -21,7 +21,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule}  from  '@Angular/forms'
 import { MatFormFieldModule } from '@Angular/material/form-field'
-import { MatInputModule } from '@Angular/material/input'
+import { MatInputModule } from '@Angular/material/input';
+import { ProductReadComponent } from './components/product/product-read/product-read.component'
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { MatInputModule } from '@Angular/material/input'
     ProductCrudComponent,
     RedDirective,
     ForDirective,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
